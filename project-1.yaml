@@ -1,0 +1,90 @@
+id: "project-1"
+title: "Statistical Estimation through SVD Analysis"
+type: "authentic"
+description: "Team project exploring estimation theory through SVD analysis of covariance matrices"
+weight: 30
+timing: "end of Week 8"
+unit: 2
+learning_outcomes:
+  - "Understand and apply properties of random vectors and their covariance matrices"
+  - "Derive and analyze SVD decomposition of sample covariance matrices" 
+  - "Apply estimation theory to analyze sampling effects and convergence"
+  - "Implement and validate statistical estimators using SVD analysis"
+group_weight: 60
+
+components:
+  - name: "Theoretical Foundation"
+    weight: 20
+    description: "Derive and analyze the properties of sample covariance matrices"
+    milestones:
+      - name: "Milestone 1 (After Lesson 10)"
+        description: "Random Variables and Covariance Theory"
+        deliverables:
+          - "Derivation of sample covariance from first principles"
+          - "Analysis of variable importance and scaling effects"
+    deliverables:
+      - "Derivation of sample covariance estimator from random variable principles"
+      - "Analysis of variable importance and scaling:"
+      - "  - Effect of variable scales on covariance estimation"
+      - "  - Impact of variable magnitude on principal directions"
+      - "  - Connection between variance and feature relevance"
+      - "Analysis of bias and consistency properties in finite samples"
+      - "Investigation of convergence rates and sample size effects"
+      - "Study of estimation errors in high dimensions"
+
+  - name: "Implementation"
+    weight: 30
+    description: "Implement SVD analysis and estimation algorithms"
+    milestones:
+      - name: "Milestone 2 (After Lesson 12)"
+        description: "Feature Analysis Implementation"
+        deliverables:
+          - "Variable importance analysis implementation"
+          - "Scale normalization implementation"
+          - "Initial SVD code structure"
+    deliverables:
+      - "Variable importance analysis:"
+      - "  - Variance-based feature relevance"
+      - "  - Scale normalization effects"
+      - "  - Cross-correlation impact"
+      - "Direct SVD implementation using numpy"
+      - "PCA implementation using sklearn"
+      - "Analysis of explained variance ratios"
+      - "Comparison of different numbers of principal components"
+      - "Documentation and test cases"
+      - "Performance analysis and validation"
+
+  - name: "Data Analysis"
+    weight: 30
+    description: "Apply methods to real datasets and analyze results"
+    milestones:
+      - name: "Final Milestone (After Lesson 14)"
+        description: "Complete Analysis and Results"
+        deliverables:
+          - "Full SVD and PCA implementation"
+          - "Complete scree plot analysis"
+          - "Final component selection analysis"
+    deliverables:
+      - "Creation and analysis of scree plots"
+      - "Discussion of different methods for choosing number of components:"
+      - "  - Elbow method"
+      - "  - Percentage of variance explained"
+      - "  - Kaiser criterion"
+      - "Analysis of convergence properties with increasing sample size"
+      - "Comparison of SVD vs PCA results across different component choices"
+      - "Effect of dimensionality on estimation accuracy"
+
+  - name: "Presentation"
+    weight: 20
+    description: "Present findings through slides and documentation"
+    milestones:
+      - name: "Ongoing Documentation"
+        description: "Progressive documentation of work"
+        deliverables:
+          - "Milestone 1: Theory documentation"
+          - "Milestone 2: Implementation documentation"
+          - "Final: Complete presentation and documentation"
+    deliverables:
+      - "Slide deck explaining approach and results"
+      - "Technical documentation"
+      - "Code demonstration"
